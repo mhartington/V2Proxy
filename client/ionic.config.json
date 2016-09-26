@@ -1,0 +1,10 @@
+{
+  "name": "V2Proxy",
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "proxies": [{
+    "path": "/api",
+    "proxyUrl": "http://0.0.0.0:3333/api"
+  }]
+}
